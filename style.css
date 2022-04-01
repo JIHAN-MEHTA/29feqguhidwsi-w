@@ -1,0 +1,24 @@
+.btn-success:hover{
+
+
+    background-color: cornflowerblue;
+}
+
+.btn-info:hover{
+
+
+    background-color: darkgreen;
+}
+
+canvas{
+animation-name: darkspirit;
+animation-duration: 1s;    
+animation-iteration-count: infinite;
+}
+
+@keyframes darkspirit{
+
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px blue;}
+
+}
